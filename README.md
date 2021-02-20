@@ -1,2 +1,16 @@
 # CS-230_Operating-Platforms
 Software Design Document
+Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design?
+The client wanted to move to a web-based environment for their Draw It or Lose It game.  Requirements included the need to work with a varying set of client platforms to include laptop/desktop, phone, and tablets with various operating systems (MS, OS, Android, etc...).  User also needed storage for 200 8MB images.  The design needed to include application software for various platforms, and relevant API, and the ability to instantiate multiple versions of the application software to run multiple game instances in parallel.  
+
+What did you do particularly well in developing this documentation?
+I think I did a good job making recommendations to the client balancing their requirements, with the need to seamlessly support multiple clients, multiple platforms while balance costs to host, develop and maintain the software.
+
+What about the process of working through a design document did you find helpful when developing the code?  The process of creating the design document makes you think about all the variables and trades needed to solve the client’s unique set of needs.  It makes you think through end use cases, customer defined requirements, cost trades, administrative burden, software, and hardware architecture all before buying license, writing a line of code, or purchasing a piece of hardware.  It also allows the customer to understand all the elements and trades considered and exactly what the company will deliver to them at project conclusion.
+
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?  I would go back and revises the software language and IDE considerations.  I was limited in time to do the research on these items, so I did not think I had enough knowledge to accurately represent all the trades involved.  Given more time, I would have further researched the issue and refined my recommendations.  I would have probably contacted the customer's tech lead to discuss some of the trades to get their input before finalizing the document.
+
+How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
+I interpreted the user’s needs as bona fide, must meet requirements (I am the user for my day job, so I understand the process well).  If the user's needs are not considered, then the end delivery will most likely not meet the user’s intent, will cost too much either in development, deployment, or sustainment, and will lead to rework to make the customer happy. 
+
+How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application? The software design approach traded benefits of code reuse, API, the need to operate on multiple system types, security considerations, and sustainment software fixes, upgrades and portability.  I would use a lot of the similar techniques in the future and would focus on understanding and considering cloud/serverless systems in much more detail.
